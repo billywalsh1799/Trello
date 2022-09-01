@@ -1,0 +1,21 @@
+.lists-container{
+    display:flex;
+    list-style: none;
+    margin-right: 10px;
+
+    /*fix for that extra margin*/
+    padding:0px;
+
+    /*added features*/
+    width:max-content;
+    height: max-content;
+     /* background-color: aquamarine; */
+    /*added features*/
+    
+}
+
+.column{
+    margin-right:7px;
+    /*right no need to fix*/
+}
+

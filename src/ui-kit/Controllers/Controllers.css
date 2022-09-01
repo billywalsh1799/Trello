@@ -1,0 +1,45 @@
+.add-list-card{
+    /*test*/
+    /* margin-top:9px;   */
+    /*test*/
+    background-color: #0079bf;
+    padding: 5px;
+    color:#fff;
+    border:none;
+    font-size:11px;
+    height:25px;
+    border-radius: 2px;
+    width:60px;
+    opacity:0.9;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+.add-list-card:hover{
+    opacity:1;
+}
+
+.icon{
+    color: #42526e;
+    opacity: 0.8;
+    /* margin-top:9px;  */
+}
+
+.icon:hover{
+    opacity: 1;
+}
+
+.controllers-flex{
+    display: flex;
+    
+
+}
+
+.flex-item{
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.trash{
+    margin-top: 5px;
+    
+}

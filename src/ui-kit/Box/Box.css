@@ -1,0 +1,46 @@
+.task-box{
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #091e4240;
+    cursor: pointer;
+    width: 176px;
+    /* min-height: 10px; */
+    min-height: 15px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    /* font-size:x-small; */
+    font-size:11px;
+
+    /*padding settings*/
+    padding-left: 7px;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-right: 7px;
+    overflow-wrap:break-word;
+    
+    
+    
+
+    /*font color*/
+    color: #172b4d
+}
+
+.task-box:hover{
+    background-color: #ebecf0e8;
+}
+
+
+
+.icon-test{
+    color: #42526e;
+    margin-left: 3px;
+    margin-top: 3px;
+    position: absolute;
+    cursor: default;
+    /* z-index: 90; */
+    
+    left:170px; 
+}
+
+.icon-test:hover{
+    background-color: #dbdddf;
+}

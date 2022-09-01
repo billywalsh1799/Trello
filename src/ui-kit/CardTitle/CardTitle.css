@@ -1,0 +1,48 @@
+.row{
+    /* margin-bottom:5px; */
+    margin-bottom:6px;
+}
+
+.user-story{
+  
+    resize: vertical;
+    max-height: 90px;
+    min-height: 40px;
+    width:175px;
+    outline: none !important;
+    /* font-size:10px; */
+    font-size:11px;
+    padding-left: 7px;
+    padding-right:7px;
+    padding-top:7px;
+    padding-bottom:7px;
+
+    
+   
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    
+  }
+
+
+
+  .user-story::-webkit-scrollbar {
+    width:5px;
+    
+  }
+  
+  .user-story::-webkit-scrollbar-track {
+    background:#ebecf0;
+    border-radius: 100vw;
+   
+   /*  margin-block: 0.5em; */
+   
+    
+  }
+  
+  .user-story::-webkit-scrollbar-thumb {
+    background: rgb(171, 173, 171);
+    /* border: 0.25em solid hsl(120 75% 50% / 1); */
+    border-radius: 100vw;
+    
+    
+  }

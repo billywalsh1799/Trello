@@ -1,0 +1,129 @@
+.search {
+  width: 230px;
+  height: 27px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size:small;
+  font-weight: 500;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-left: 650px; 
+  margin-top: 15px;
+  
+}
+
+
+
+.search__button,
+.search__input {
+background-color: rgb(243, 243, 243);
+border: none;
+outline: none;
+}
+
+.search__input {
+  /* padding: 1em; */
+  font-size:12px;
+  padding:10px ;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+  width: 85%;
+}
+
+.search__button {
+width: 15%;
+font-size: 1.5rem;
+padding-right: 0.5em;
+color: gray;
+display: grid;
+place-content: center;
+
+}  
+
+.search___reseult{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 243, 243);
+  width: 230px;
+  min-height: 10px;
+  max-height: 150px;
+
+  border: 2px solid black; 
+  border-radius: 5px;
+  margin-top: 2px;
+  overflow: hidden;
+  overflow-y: auto;
+  /* padding: 5px; */
+  margin-left: 800px;
+  margin-top: 50px;
+  position: absolute;
+  z-index:1;
+}
+
+.search___reseult::-webkit-scrollbar {
+  display: none;
+}
+
+.result-item{
+  /* margin-bottom: 8px; */
+  font-size: 13px;
+  font-weight: 500;
+  color: #132541;
+  /* background-color: blueviolet;  */
+  cursor: pointer;
+  height: 23px;
+  /* padding: 2px; */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+  /*overflow handling */
+   white-space: nowrap;
+ /*  overflow: hidden; */
+  /* text-overflow: ellipsis;  */
+  
+
+  
+}
+
+.result-item:hover{
+  
+  /* background-color: #0079bf; */
+  background-color: rgb(44, 44, 44);
+  color: antiquewhite;
+}
+
+.result-card-icon{
+  /* background-color: aquamarine;  */
+  height: 13px;
+  color: rgb(56, 56, 141);
+ 
+}
+
+.search-box{
+
+  background-color: #3d5274;
+  height: 60px;
+  /* padding-top: 7px;
+  padding-bottom: 7px; */
+  display: flex;
+  
+}
+
+.not-found{
+text-align: center;
+font-size: 12px;
+color: #132541;
+height: 20px;
+font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+/* background-color: aquamarine; */
+
+}
+.search-header{
+  color: aliceblue;
+  width: 150px;
+  position: relative;
+  top: -10px;
+}

@@ -1,0 +1,14 @@
+body {
+  box-sizing: border-box;
+  margin-left:10px;
+  padding:0;
+  background-color: #5e7baa;
+  /* background-color: darkorange;  */
+  zoom: 125%; 
+  /* background-image: url(/src/kanban.png);
+  background-size: 1366px 768px;
+  background-repeat: no-repeat; */
+}
+
+/*put dimensions to window resoltion */
+
